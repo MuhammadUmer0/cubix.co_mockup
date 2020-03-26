@@ -6,4 +6,5 @@
 header{
     height: 624px;
     width: 100%;
+    position: fixed;
 }
