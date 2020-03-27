@@ -1,71 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Averta, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Averta, sans-serif;
 }
-:root{
-    --buttonBg: #4869E8;
+:root {
+  --buttonBg: #4869e8;
 }
-header{
-    height: 90px;
+header {
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+}
+nav {
+  width: 600px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  height: 90px;
+  width: 100px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 600;
+  color: white;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+header .contact {
+  height: 40px;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  color: white;
+}
+.contact a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  background-color: var(--buttonBg);
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+    /* box-shadow: rgba(134, 86, 86, 0.753) 0px 0px 0px; */
+}
+#btnTouch {
+  height: 40px;
+  width: 146px;
+}
+main{
+    height: 668px;
     width: 100%;
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-}
-nav{
-    width: 600px;
-}
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav li{
-    height: 90px;
-    width: 100px;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 17px;
-    line-height: 27px;
-    font-weight: 600;
-    color: white;
-}
-nav a{
-    text-decoration: none;
-    color: inherit;
-}
-header .contact{
-    height: 40px;
-    width: 290px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 13px;
-    line-height: 20px;
-    font-weight: 700;
-    color: white;
-}
-.contact a{
-    text-decoration: none;
-    color: inherit;
-}
-button{
-    background-color: var(--buttonBg);
-    color: white;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-size: 13px;
-    line-height: 20px;
-    font-weight: 700;
-    border: none;
-    cursor: pointer;
-}
-#btnTouch{
-    height: 40px;
-    width: 146px;
+    background-image: url(images/revolutionizing-enterprises-digitally.jpg);
+    background-size: cover;
 }
