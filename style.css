@@ -20,12 +20,16 @@ nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 nav li{
     height: 90px;
     width: 100px;
     list-style-type: none;
     background-color: burlywood;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 600;
 }
 nav a{
     height: inherit;
