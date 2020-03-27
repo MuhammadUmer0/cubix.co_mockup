@@ -4,7 +4,30 @@
     font-family: Averta, sans-serif;
 }
 header{
-    height: 624px;
+    height: 90px;
     width: 100%;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+nav{
+    width: 600px;
+    background-color: brown;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    height: 90px;
+    width: 100px;
+    list-style-type: none;
+    background-color: burlywood;
+}
+nav a{
+    height: inherit;
+    width: inherit;
 }
