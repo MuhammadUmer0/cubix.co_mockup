@@ -8,30 +8,31 @@ header{
     width: 100%;
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
 }
 nav{
     width: 600px;
-    background-color: brown;
 }
 nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 nav li{
     height: 90px;
     width: 100px;
     list-style-type: none;
-    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 17px;
     line-height: 27px;
     font-weight: 600;
+    color: white;
 }
 nav a{
-    height: inherit;
-    width: inherit;
+    text-decoration: none;
+    color: inherit;
 }
