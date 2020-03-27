@@ -98,11 +98,12 @@ main h1{
     font-weight: 700;
 }
 main p{
-    height: 77px;
+    height: 90px;
     width: 510px;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
+    margin-top: 2.2em;
 }
 #btnTalk{
     height: 54px;
