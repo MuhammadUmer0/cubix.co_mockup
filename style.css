@@ -5,6 +5,8 @@
 }
 :root {
   --buttonBg: #4869e8;
+  --productsGradientCol1: #0bccee;
+  --productsGradientCol2: #ac1de1;
 }
 header {
   height: 90px;
@@ -134,4 +136,13 @@ main p {
 .products{
   height: 675px;
   width: 100%;
+  background: linear-gradient(to right, var(--productsGradientCol1) 0%, var(--productsGradientCol2) 100%) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.products .content{
+  height: 430px;
+  width: 80%;
 }
