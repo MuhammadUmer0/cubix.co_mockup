@@ -8,6 +8,7 @@
   --productsGradientCol1: #0bccee;
   --productsGradientCol2: #ac1de1;
   --productsGrey: rgba(255, 255, 255, 0.5);
+  --productsColHover: #1e1666;
 }
 header {
   height: 90px;
@@ -134,25 +135,28 @@ main p {
   height: 50px;
   width: 50px;
 }
-.products{
+.products {
   height: 675px;
   width: 100%;
-  background: linear-gradient(to right, var(--productsGradientCol1) 0%, var(--productsGradientCol2) 100%) !important;
+  background: linear-gradient(
+    to right,
+    var(--productsGradientCol1) 0%,
+    var(--productsGradientCol2) 100%
+  ) !important;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.products .content{
+.products .content {
   height: 500px;
   width: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
 }
-.products p{
+.products p {
   font-size: 12px;
   line-height: 14px;
   font-weight: 400;
@@ -160,7 +164,7 @@ main p {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.products h1{
+.products h1 {
   width: 750px;
   height: 160px;
   text-align: center;
@@ -169,48 +173,48 @@ main p {
   font-weight: 700;
   color: white;
 }
-.productsRow{
+.productsRow {
   width: 100%;
   height: 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.productsRow a{
+.productsRow a {
   height: inherit;
   text-decoration: none;
 }
-.productsCol{
+.productsCol {
   height: 100%;
   width: 262px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  transition: 0.30s;
+  transition: 0.3s;
   border-radius: 5px;
   color: white;
 }
-.productsCol h3{
+.productsCol h3 {
   width: 123px;
   height: 50px;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
 }
-.productsCol:hover{
+.productsCol:hover {
   height: 100%;
   width: 262px;
   background-color: white;
-  color: #1e1666;
+  color: --productsColHover;
 }
-.productsCol .content{
+.productsCol .content {
   height: 200px;
   width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.productsCol svg{
+.productsCol svg {
   fill: white;
 }
