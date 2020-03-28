@@ -150,7 +150,7 @@ main p {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* color: white; */
+
 }
 .products p{
   font-size: 12px;
@@ -167,6 +167,7 @@ main p {
   font-size: 42px;
   line-height: 54px;
   font-weight: 700;
+  color: white;
 }
 .productsRow{
   width: 100%;
@@ -177,6 +178,7 @@ main p {
 }
 .productsRow a{
   height: inherit;
+  text-decoration: none;
 }
 .productsCol{
   height: 100%;
@@ -185,9 +187,16 @@ main p {
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  transition: 0.30s;
+  border-radius: 5px;
+  color: white;
+}
+.productsCol h3{
+  width: 123px;
+  height: 50px;
   font-size: 20px;
   line-height: 30px;
-  color: white;
+  text-align: center;
 }
 .productsCol:hover{
   height: 100%;
