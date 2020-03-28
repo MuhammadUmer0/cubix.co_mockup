@@ -7,6 +7,7 @@
   --buttonBg: #4869e8;
   --productsGradientCol1: #0bccee;
   --productsGradientCol2: #ac1de1;
+  --productsGrey: rgba(255, 255, 255, 0.5);
 }
 header {
   height: 90px;
@@ -145,4 +146,32 @@ main p {
 .products .content{
   height: 430px;
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.products p{
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: var(--productsGrey);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.products h1{
+  width: 750px;
+  height: 160px;
+  text-align: center;
+  font-size: 42px;
+  line-height: 54px;
+  font-weight: 700;
+}
+.productsRow{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
