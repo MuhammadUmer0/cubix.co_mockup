@@ -144,13 +144,13 @@ main p {
   flex-direction: column;
 }
 .products .content{
-  height: 430px;
-  width: 80%;
+  height: 500px;
+  width: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  /* color: white; */
 }
 .products p{
   font-size: 12px;
@@ -174,4 +174,34 @@ main p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.productsRow a{
+  height: inherit;
+}
+.productsCol{
+  height: 100%;
+  width: 262px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+.productsCol:hover{
+  height: 100%;
+  width: 262px;
+  background-color: white;
+  color: #1e1666;
+}
+.productsCol .content{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.productsCol svg{
+  fill: white;
 }
