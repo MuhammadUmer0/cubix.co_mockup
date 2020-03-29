@@ -247,5 +247,24 @@ section .ideas{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: yellow;
+}
+#img1{
+  position: relative;
+}
+#img2{
+  position: absolute;
+  margin-left:6em;
+}
+#img3{
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  margin-left:26em;
+  margin-bottom: 10em;
+}
+.ideasRow .ideasCol{
+  height: 538px;
+  width: 435px;
+  background-color: #4869e8;
+  display: flex;
 }
