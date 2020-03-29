@@ -218,3 +218,8 @@ main p {
 .productsCol svg {
   fill: white;
 }
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
