@@ -10,6 +10,7 @@
   --productsGrey: rgba(255, 255, 255, 0.5);
   --productsColHover: #1e1666;
   --ideasColCat: #ffb09f;
+  --solutionsBg: #FCFCFD;
 }
 header {
   height: 90px;
@@ -312,4 +313,9 @@ section .ideas{
 .btnCaseStudy{
   width: 205px;
   height: 56px;
+}
+.solutions{
+  width: 100%;
+  height: 660px;
+  background-color: var(--solutionsBg);
 }
