@@ -9,6 +9,7 @@
   --productsGradientCol2: #ac1de1;
   --productsGrey: rgba(255, 255, 255, 0.5);
   --productsColHover: #1e1666;
+  --ideasColCat: #ffb09f;
 }
 header {
   height: 90px;
@@ -226,7 +227,7 @@ section{
   align-items: center;
 }
 section .ideas{
-  width: 80%;
+  width: 88%;
   height: 800px;
   display: flex;
   justify-content: space-around;
@@ -253,18 +254,45 @@ section .ideas{
 }
 #img2{
   position: absolute;
-  margin-left:6em;
+  margin-left:4em;
 }
 #img3{
   height: 140px;
   width: 140px;
   position: absolute;
-  margin-left:26em;
-  margin-bottom: 10em;
+  margin-left:20em;
+  /* margin-bottom: 10em; */
 }
 .ideasRow .ideasCol{
-  height: 538px;
-  width: 435px;
-  background-color: #4869e8;
+  height: 440px;
+  width: 540px;
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.ideasCol img{
+  height: 80px;
+  width: 80px;
+}
+.ideasCol h1{
+  text-align: left;
+}
+.ideasCol h3{
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--ideasColCat);
+  text-transform: capitalize;
+}
+.ideasCol p{
+  height: 80px;
+  width: 520px;
+  font-size: 19px;
+  line-height: 33px;
+  font-weight: 400;
+}
+.btnCaseStudy{
+  width: 205px;
+  height: 56px;
 }
