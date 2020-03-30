@@ -385,8 +385,9 @@ section .ideas{
   height:835px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
   background-color: white;
 }
 .awards h1{
@@ -400,4 +401,28 @@ section .ideas{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: yellow;
 }
+.awardsCol{
+  width: 290px;
+  height: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4869e8;
+}
+.awardsCol .content{
+  width: 210px;
+  height:248px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.awardsCol img{
+  width: 93px;
+  height: 100;
+}
+
