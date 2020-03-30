@@ -10,7 +10,7 @@
   --productsGrey: rgba(255, 255, 255, 0.5);
   --productsColHover: #1e1666;
   --ideasColCat: #ffb09f;
-  --solutionsBg: #FCFCFD;
+  --solutionsBg: #F2F5FA;
 }
 header {
   height: 90px;
@@ -380,4 +380,9 @@ section .ideas{
   font-size: 16px;
   line-height: 26px;
   font-weight: 600;
+}
+.awards{
+  height:835px;
+  width: 100%;
+  background-color: white;
 }
