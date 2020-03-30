@@ -222,6 +222,7 @@ main p {
 }
 section{
   width: 100%;
+  max-width: 75%;
   height: 2800px;
   display: flex;
   justify-content: space-around;
@@ -329,4 +330,54 @@ section .ideas{
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+}
+.solutions h1{
+  width: 960px;
+  height: 86px;
+  font-size: 42px;
+  line-height: 54px;
+  font-weight: 700;
+  text-align: center;
+}
+.solutions h2{
+  width: 800px;
+  height: 124px;
+  font-size: 23px;
+  line-height: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.solutions .name{
+  width: 250px;
+  height: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.solutions h3{
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.solutions p{
+  font-size: 19px;
+  line-height: 33px;
+  font-weight: 400;
+}
+.solutions .rating{
+  width: 373px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating .pBlue{
+
+  color: var(--buttonBg);
+}
+.rating p{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
 }
