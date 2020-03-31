@@ -432,3 +432,7 @@ section .ideas {
 #margin-top{
   margin-top: 11em;
 }
+.partners{
+  height: 650px;
+  width: 100%;
+}
