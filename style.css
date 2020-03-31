@@ -450,7 +450,7 @@ section .ideas {
   font-weight: 700;
 }
 .partnersRow{
-  width: 80%;
+  width: 90%;
   height: 260px;
   display: flex;
   justify-content: space-between;
@@ -460,6 +460,19 @@ section .ideas {
   height: 260px;
   width: 260px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
+}
+.partnersCol img{
+  height: 150px;
+  width: 150px;
+}
+.partnersCol h3{
+  width:255px;
+  height:45px;
+  font-size:20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
 }
