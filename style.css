@@ -439,7 +439,7 @@ section .ideas {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background-color: var(--solutionsBg);
+  background: linear-gradient(to bottom, #f1f4f9 0%, transparent 100%) !important;
 }
 .partners h1{
   height: 100px;
@@ -475,4 +475,12 @@ section .ideas {
   line-height: 30px;
   font-weight: 600;
   text-align: center;
+}
+.hr{
+  width: 100%;
+  border-bottom: 1px solid silver;
+}
+footer{
+  height: 780px;
+  width: 100%;
 }
