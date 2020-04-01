@@ -578,3 +578,8 @@ footer h1{
   color: inherit;
   text-decoration: none;
 }
+.socialFooter{
+  width: 85%;
+  height: 25px;
+  background-color: var(--buttonBg);
+}
