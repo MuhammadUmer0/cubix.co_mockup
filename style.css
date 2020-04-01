@@ -11,6 +11,7 @@
   --productsColHover: #1e1666;
   --ideasColCat: #ffb09f;
   --solutionsBg: #f2f5fa;
+  --addresslinks: #808291;
 }
 header {
   height: 90px;
@@ -509,4 +510,43 @@ footer h1{
   line-height: 26px;
   font-weight: 600;
   letter-spacing: 1px;
+}
+.addresslinksRow{
+  height: 172px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addresslinksRow .addresslinksCol{
+  height: inherit;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.addresslinksCol img{
+  width: 30px;
+  height:20px;
+}
+.country{
+  width: 100px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.addresslinksCol p{
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--addresslinks);
+}
+.addresslinksCol a{
+  color: var(--buttonBg);
+  text-decoration: none;
+  font-weight: 700;
 }
