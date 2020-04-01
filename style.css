@@ -12,6 +12,7 @@
   --ideasColCat: #ffb09f;
   --solutionsBg: #f2f5fa;
   --addresslinks: #808291;
+  --socialFooterHover: #181B31;
 }
 header {
   height: 90px;
@@ -581,5 +582,32 @@ footer h1{
 .socialFooter{
   width: 85%;
   height: 25px;
-  background-color: var(--buttonBg);
+  display:flex;
+  justify-content: space-between;
+}
+.socialFooter .copyright{
+  width: 40%;
+  display: flex;
+}
+.copyright p{
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: var(--addresslinks);
+}
+.copyright a{
+  text-decoration: none;
+  color: inherit;
+}
+.copyright a:hover{
+  color: var(--socialFooterHover);
+}
+.socialNetwork{
+  height: 20px;
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.socialNetwork svg:hover{
+  fill: --socialFooterHover;
 }
