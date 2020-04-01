@@ -483,4 +483,30 @@ section .ideas {
 footer{
   height: 780px;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+footer .content{
+  height: 220px;
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+footer h1{
+  font-size: 42px;
+  line-height: 54px;
+  font-weight: 700;
+  text-align: center;
+}
+#startAProject{
+  width: 250px;
+  height: 60px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
